@@ -1,0 +1,46 @@
+*{
+  background-color: black;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+  border: 2px solid;
+  border-color: hsl(36, 3%, 36%);
+  padding: 20px;
+  box-shadow:30px 30px  50px rgb(156, 154, 154);
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+
+.card .card-image{
+  max-width: 200px;
+
+}
+
+.card h1{
+  color: rgb(245, 106, 241);
+}
+
+.card img{
+  border-radius: 15px;
+}
+
+
+.counter-container{
+  border: 0.1px solid ;
+  max-width: fit-content;
+  text-align: center;
+}
+.counter-container h1{
+  color: rgb(245, 7, 7);
+
+}
+.counter-container button{
+  color: black;
+  background-color: aqua;
+  font-size: small;
+}
