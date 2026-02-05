@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 
-function input(){
+function Input(){
 
 
     const [name,setName] = useState('Guest');
@@ -45,4 +45,4 @@ function input(){
 }
 
 
-export default input;
+export default Input;
