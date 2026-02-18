@@ -1,15 +1,21 @@
-import Card from './card'
-import profilePic from './assets/profilePic.jpeg';
-import Counter from './counter';
-import Input from './onchange';
-
+// import Card from './card'
+// import profilePic from './assets/profilePic.jpeg';
+// import Counter from './counter';
+// import Input from './onchange';
+// import Ref from './ref'
+// import Communication from './childToParent';
+import Calc from './calc';
+import CounterReducer from './counterReducer.jsx';
 
 function App() {
   return(
       <>
-        <Input/>
-        <Counter/>
-        <Card profilePic={profilePic} name="abhi" bio="photographer"/>
+      <CounterReducer/>
+      {/* <Communication/> */}
+        {/* <Input/> */}
+        {/* <Ref/> */}
+        {/* <Counter/> */}
+        {/* <Card profilePic={profilePic} name="abhi" bio="photographer"/> */}
       </>
   );
 }
