@@ -3,15 +3,19 @@
 // import Counter from './counter';
 // import Input from './onchange';
 // import Ref from './ref'
-// import Communication from './childToParent';
-import Calc from './calc';
-import CounterReducer from './counterReducer.jsx';
+import Communication from './childToParent';
+// import Calc from './calc';
+// import CounterReducer from './counterRed.jsx';
+// import Calculator from './calculatorWithReducer.jsx';
+// import List from './addToList.jsx';
+// import Timer from './timer';
+// import Products from "./fetch";
 
 function App() {
   return(
       <>
-      <CounterReducer/>
-      {/* <Communication/> */}
+      {/* <Products/> */}
+      <Communication/>
         {/* <Input/> */}
         {/* <Ref/> */}
         {/* <Counter/> */}
