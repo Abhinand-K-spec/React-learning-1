@@ -9,16 +9,27 @@
 // import Calculator from './calculatorWithReducer.jsx';
 // import List from './addToList.jsx';
 // import Timer from './timer';
-import Products from "./fetch";
+
+import Todo from './week2-repeat/todo';
+import { CounterProvider } from './week2-repeat/contextCounter/counterContext';
+
+import Counter from './week2-repeat/contextCounter/counter';
+import CalculatorReducer from './week2-repeat/CalculatorReducer';
+import { ThemeContextProvider } from './week2-repeat/contextCounter/ThemeContext';
+import UseMemo from './week2-repeat/UseMemo';
+
 
 function App() {
+
+
   return(
       <>
-      <Products/>
+      {/* <Products/> */}
       {/* <Communication/> */}
         {/* <Input/> */}
         {/* <Ref/> */}
-        <Counter/>
+        <UseMemo/>
+        {/* <Todo/> */}
         {/* <Card profilePic={profilePic} name="abhi" bio="photographer"/> */}
       </>
   );
