@@ -10,13 +10,15 @@
 // import List from './addToList.jsx';
 // import Timer from './timer';
 
-import Todo from './week2-repeat/todo';
-import { CounterProvider } from './week2-repeat/contextCounter/counterContext';
+// import Todo from './week2-repeat/todo';
+// import { CounterProvider } from './week2-repeat/contextCounter/counterContext';
 
-import Counter from './week2-repeat/contextCounter/counter';
-import CalculatorReducer from './week2-repeat/CalculatorReducer';
-import { ThemeContextProvider } from './week2-repeat/contextCounter/ThemeContext';
-import UseMemo from './week2-repeat/UseMemo';
+// import Counter from './week2-repeat/contextCounter/counter';
+// import CalculatorReducer from './week2-repeat/CalculatorReducer';
+// import { ThemeContextProvider } from './week2-repeat/contextCounter/ThemeContext';
+// import UseMemo from './week2-repeat/UseMemo';
+import Counter from './week2-repeat/CONTEXTLEARNING/counter';
+import { CounterLearningProvider } from './week2-repeat/CONTEXTLEARNING/CounterContext';
 
 
 function App() {
@@ -28,7 +30,10 @@ function App() {
       {/* <Communication/> */}
         {/* <Input/> */}
         {/* <Ref/> */}
-        <UseMemo/>
+        {/* <UseMemo/> */}
+        <CounterLearningProvider>
+        <Counter/>
+        </CounterLearningProvider>
         {/* <Todo/> */}
         {/* <Card profilePic={profilePic} name="abhi" bio="photographer"/> */}
       </>
